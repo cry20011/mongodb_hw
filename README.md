@@ -10,3 +10,15 @@
 ![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen3.png)
 Теперь, выживших мужчин старше 30, у которых хотя бы один родственник на корабле, отсортируем по возрасту (по возрастанию) и возьмем первых трех.
 ![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen4.png)
+Оказывается, что все, кто старше 20 лет и у которых ровно один родственник на корабле, выжили.
+![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen5.png)
+# Индексы
+Сделаем простой запрос: выбрем всех 20-летних пассажиров
+![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen6.png)
+Зафиксировали 1200 миллисекунд, теперь создадим индекс по возрасту по возрастанию.
+![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen7.png)
+60 миллисекунд.
+Теперь всех пассажиров младше 20 лет без индекса
+![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen8.png)
+С индексом
+![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen9.png)
