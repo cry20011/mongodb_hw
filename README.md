@@ -42,3 +42,11 @@
 Создадим ещё один индекс по возрасту и количеству родственников на корабле.
 ![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen17.png)
 Тот запрос, который выполнялся одну секунду, теперь выполняется за четверть секунды.
+
+Вставим 100000 Виталиков в базу.
+
+Без индексов
+![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen18.png)
+С индексами
+![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen19.png)
+Индексы замедляют вставку, потому что нужно перестраивать дерево.
