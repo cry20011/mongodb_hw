@@ -22,3 +22,8 @@
 ![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen8.png)
 С индексом
 ![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen9.png)
+Немного лучше. Попробуем наоборот, старше 20. Без индекса:
+![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen10.png)
+С индексом:
+![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen11.png)
+Вдвое дольше, тут выбралось в три раза больше данных, чем в предыдущем запросе, получается для большой выборки B-дерево замедляет запрос, но для точечного запроса (как было в первом, {"Age": 20} очень большой прирост в скорости)
