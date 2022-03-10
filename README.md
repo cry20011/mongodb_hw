@@ -7,5 +7,6 @@
 и, да, Виталика оказалось три.
 ![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen2.png)
 Найдем всех не выживших женщин младше 20 лет, у которых есть хотя бы один родственник на корабле (и возьмем первых трех).
-
-
+![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen3.png)
+Теперь, выживших мужчин старше 30, у которых хотя бы один родственник на корабле, отсортируем по возрасту (по возрастанию) и возьмем первых трех.
+![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen4.png)
