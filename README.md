@@ -35,5 +35,5 @@
 500 миллисекунд, прирост скорости в два раза.
 
 Попробуем теперь в обратную сторону:
-![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen14.png)
 ![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen15.png)
+![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen16.png)
