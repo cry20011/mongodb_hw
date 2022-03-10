@@ -29,3 +29,11 @@
 Вдвое дольше, тут выбралось в три раза больше данных, чем в предыдущем запросе, получается для большой выборки B-дерево замедляет запрос, но для точечного запроса (как было в первом, {"Age": 20}) очень большой прирост в скорости.
 
 Попробуем запрос посложнее:
+![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen12.png)
+1 секунда
+![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen13.png)
+500 миллисекунд, прирост скорости в два раза.
+
+Попробуем теперь в обратную сторону:
+![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen14.png)
+![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen15.png)
