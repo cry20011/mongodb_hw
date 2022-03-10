@@ -37,3 +37,8 @@
 Попробуем теперь в обратную сторону:
 ![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen15.png)
 ![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen16.png)
+Та же история, что и в прошлый раз, на бОльших данных индекс замедляет.
+
+Создадим ещё один индекс по возрасту и количеству родственников на корабле.
+![](https://github.com/cry20011/mongodb_hw/raw/main/screens/screen17.png)
+Тот запрос, который выполнялся одну секунду, теперь выполняется за четверть секунды.
